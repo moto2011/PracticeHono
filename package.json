@@ -2,8 +2,12 @@
   "name": "practicehono",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "dev:watch": "tsx watch src/index.ts",
+    "build": "tsc --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
